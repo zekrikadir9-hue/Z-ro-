@@ -1,4 +1,4 @@
-        """Telegram Bot with tasks and points system"""
+"""Telegram Bot with tasks and points system"""
         import json, configparser, os
         from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
         from telegram.ext import Updater, CommandHandler, CallbackContext, CallbackQueryHandler
